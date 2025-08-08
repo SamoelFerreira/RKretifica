@@ -1,69 +1,182 @@
 *{
     margin: 0px;
     font-family: tahoma;
-    padding: 0;
-    box-sizing: border-box;
 }
 
+    /* LOGO / LINKS NAVEGAÇÃO*/
 .container-topo{
-    text-align: center;
     background-color: rgb(234, 243, 250);
+    text-align: center;
 }
 
 .img-logo {
-    width: 430px;
-    height: 400px;
+    width: 330px;
+    height: 250px;
 }
 
-.paragrafo-links-topo{
+.paragrafo-link-topo{
     font-size: 25px;
     line-height: 50px;
-    margin: 3px;
 }
 
-.link{
-    margin: 5px;
+.link-topo{
     text-decoration: none;
     color: rgb(19, 21, 143);
+    margin: 5px;
 }
+
+/************************************************************************************/
+
+/* BANNER PRINCIPAL*/
 
 .container-banner-topo{
     text-align: center;
-    background-color: rgb(126, 208, 255);
+    background-color: rgb(184, 222, 245);
     height: 500px;
 }
 
-.banner-topo{
+.container-banner-topo img{
     width: 1024px;
     height: 500px;
-    
 }
+
+/******************************************************************************/
 
 /* PARAGRAFO SOBRE */
 
-.container-principal-info{
-    text-align: center;
+.container-principal-sobre{
     background-color: rgb(234, 243, 250);
     padding: 10px;
-
+    line-height: 30px;
+    text-align: center;
 }
 
-.titulo-sobre1{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.titulo1-sobre{
+    margin-top: 25px;
+    margin-bottom: 20px;
     font-size: 45px;
 }
 
-.titulo-sobre2{
-    margin: 5px;
+.titulo2-sobre{
+    margin: 15px;
 }
 
 .paragrafo{
-    margin: 25px;
+    font-size: 20px;
     color: rgb(19, 21, 143);
     text-align: justify;
+    line-height: 32px;
+    margin: 15px auto;
+    width: 1024px;
+}
+
+.banner-img-rk{
+    text-align: center;
+}
+
+.banner-img-rk img{
+    width: 1024px;
+    height: 500px;
 }
 
 span{
     font-weight: bold;
+}
+
+/*******************************************************************************/
+
+/* AREA DE SERVIÇOS */
+
+.titulo-servico{
+    font-size: 45px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-servicos-sobre{
+    background-color: rgb(184, 222, 245);
+}
+.container-servicos{
+    text-align: center;
+}
+
+.container-servicos img{
+    width: 1024px;
+    height: 500px;
+}
+
+.container-lista-servicos{
+    width: 450px;
+    margin: 40px auto 40px;
+}
+
+.lista-servicos{
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.paragrafo-servico{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 32px;
+    margin: 15px auto;
+    width: 1024px;
+}
+
+/************************************************************************************/
+/* EQUIPE RK IMAGEM */
+
+.container-equipe{
+    text-align: center;
+    background-color: rgb(234, 243, 250);
+    margin: 0px;
+}
+
+.container-equipe img{
+    width: 1024px;
+    height: 500px;
+}
+
+.titulo-equipe{
+    font-size: 45px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.lista-nome{
+    width: 55px;
+    margin: 40px auto 40px;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+
+/**********************************************************************************/
+
+/* AREA CONTATOS E LOCALIZAÇÃO*/
+
+.container-contato{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo-contato{
+    font-size: 45px;
+}
+
+/* WHATS E EMAIL */
+
+.container-lista-contato{
+    text-align: center;
+}
+
+.container-lista-contato a{
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+iframe{
+    margin: 15px;
 }
