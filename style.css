@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    font-family: tahoma;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-topo{
+    text-align: center;
+    background-color: rgb(234, 243, 250);
+}
+
+.img-logo {
+    width: 430px;
+    height: 400px;
+}
+
+.paragrafo-links-topo{
+    font-size: 25px;
+    line-height: 50px;
+    margin: 3px;
+}
+
+.link{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(19, 21, 143);
+}
+
+.container-banner-topo{
+    text-align: center;
+    background-color: rgb(126, 208, 255);
+    height: 500px;
+}
+
+.banner-topo{
+    width: 1024px;
+    height: 500px;
+    
+}
+
+/* PARAGRAFO SOBRE */
+
+.container-principal-info{
+    text-align: center;
+    background-color: rgb(234, 243, 250);
+    padding: 10px;
+
+}
+
+.titulo-sobre1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+.titulo-sobre2{
+    margin: 5px;
+}
+
+.paragrafo{
+    margin: 25px;
+    color: rgb(19, 21, 143);
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+}
