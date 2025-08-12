@@ -5,6 +5,7 @@
 
     /* LOGO / LINKS NAVEGAÇÃO*/
 .container-topo{
+    max-width: 1044px;
     background-color: rgb(234, 243, 250);
     text-align: center;
 }
