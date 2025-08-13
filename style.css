@@ -1,201 +1,190 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: tahoma;
 }
 
-    /* LOGO / LINKS NAVEGAÇÃO*/
-.container-topo{
+/* LOGO / LINKS NAVEGAÇÃO */
+.container-topo {
     background-color: rgb(234, 243, 250);
     text-align: center;
     padding: 10px;
-    margin: 0px auto;
-    width: 1024px;
+    margin: 0 auto;
 }
 
 .img-logo {
-    width: 330px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
 }
 
-.paragrafo-link-topo{
+.paragrafo-link-topo {
     font-size: 25px;
     line-height: 50px;
 }
 
-.link-topo{
+.link-topo {
     text-decoration: none;
     color: rgb(19, 21, 143);
     margin: 5px;
 }
 
-/************************************************************************************/
-
-/* BANNER PRINCIPAL*/
-
-.container-banner-topo{
+/* BANNER PRINCIPAL */
+.container-banner-topo {
     text-align: center;
     background-color: rgb(184, 222, 245);
     padding: 10px;
-    margin: 0px auto;
-    width: 1024px;
+    margin: 0 auto;
 }
 
-.container-banner-topo img{
-    width: 980px;
-    height: 500px;
+.container-banner-topo img {
+    max-width: 100%;
+    height: auto;
 }
-
-/******************************************************************************/
 
 /* PARAGRAFO SOBRE */
-
-.container-principal-sobre{
+.container-principal-sobre {
     background-color: rgb(234, 243, 250);
     padding: 10px;
-    margin: 0px auto;
-    width: 1024px;
+    margin: 0 auto;
     line-height: 30px;
     text-align: center;
 }
 
-.titulo1-sobre{
+.titulo1-sobre {
     margin-top: 25px;
     margin-bottom: 20px;
     font-size: 45px;
 }
 
-.titulo2-sobre{
+.titulo2-sobre {
     margin: 15px;
 }
 
-.paragrafo{
+.paragrafo {
     font-size: 20px;
     color: rgb(19, 21, 143);
     text-align: justify;
     line-height: 32px;
     margin: 15px auto;
-    width: 980px;
+    max-width: 100%;
 }
 
-.banner-img-rk{
+.banner-img-rk {
     text-align: center;
 }
 
-.banner-img-rk img{
-    width: 980px;
-    height: 500px;
+.banner-img-rk img {
+    max-width: 100%;
+    height: auto;
 }
 
-span{
+span {
     font-weight: bold;
 }
 
-/*******************************************************************************/
-
 /* AREA DE SERVIÇOS */
-
-.titulo-servico{
+.titulo-servico {
     font-size: 45px;
     margin: 10px;
     padding: 10px;
 }
 
-.container-servicos-sobre{
+.container-servicos-sobre {
     background-color: rgb(184, 222, 245);
     padding: 10px;
-    margin: 0px auto;
-    width: 1024px;
+    margin: 0 auto;
 }
-.container-servicos{
+
+.container-servicos {
     text-align: center;
 }
 
-.container-servicos img{
-    width: 980px;
-    height: 500px;
+.container-servicos img {
+    max-width: 100%;
+    height: auto;
 }
 
-.container-lista-servicos{
-    width: 450px;
-    margin: 40px auto 40px;
+.container-lista-servicos {
+    max-width: 100%;
+    margin: 40px auto;
 }
 
-.lista-servicos{
-    font-size: 22px;
-    line-height: 42px;
+.container-lista-servicos,
+.container-lista-nome {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: left;
 }
 
-.paragrafo-servico{
+.paragrafo-servico {
     font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: justify;
     line-height: 32px;
-    width: 980px;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
-/************************************************************************************/
 /* EQUIPE RK IMAGEM */
-
-.titulo-equipe{
+.titulo-equipe {
     font-size: 45px;
     margin: 10px;
     padding: 10px;
 }
 
-.container-equipe{
+.container-equipe {
     background-color: rgb(184, 222, 245);
     padding: 10px;
-    margin: 0px auto;
-    width: 1024px;
+    margin: 0 auto;
 }
-.container-equipe-a{
+
+.container-equipe-a {
     text-align: center;
 }
 
-.container-equipe-a img{
-    width: 980px;
-    height: 500px;
+.container-equipe-a img {
+    max-width: 100%;
+    height: auto;
 }
 
-.container-lista-nome{
-    width: 450px;
-    margin: 40px auto 40px;
+.container-lista-nome {
+    max-width: 600px;
+    margin: 40px auto;
 }
 
-.lista-nome-funcionarios{
+.lista-servicos,
+.lista-nome-funcionarios {
+    list-style-type: disc;
+    padding-left: 40px; 
     font-size: 22px;
     line-height: 42px;
 }
 
-
-/**********************************************************************************/
-
-/* AREA CONTATOS E LOCALIZAÇÃO*/
-
-.container-contato{
+/* CONTATOS E LOCALIZAÇÃO */
+.container-contato {
     text-align: center;
     margin-top: 30px;
 }
 
-.titulo-contato{
+.titulo-contato {
     font-size: 45px;
 }
 
-/* WHATS E EMAIL */
-
-.container-lista-contato{
+.container-lista-contato {
     text-align: center;
 }
 
-.container-lista-contato a{
+.container-lista-contato a {
     font-size: 25px;
     margin: 10px;
     text-decoration: none;
 }
 
-iframe{
+iframe {
     margin: 15px;
-    width: 980px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
+
