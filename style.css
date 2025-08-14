@@ -155,7 +155,8 @@ span {
 
 .lista-servicos,
 .lista-nome-funcionarios {
-    list-style-type: disc;
+    max-width: 600px;
+    margin: 40px auto;
     padding-left: 40px; 
     font-size: 22px;
     line-height: 42px;
